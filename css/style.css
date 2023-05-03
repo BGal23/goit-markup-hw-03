@@ -1,0 +1,114 @@
+:root {
+    --black-color: #000000;
+    --white-color: #ffffff;
+    --dark-color: #2F303A;
+    --blue-color: #2196F3;
+    --grey-color: #757575;
+    --light-color: #F5F4FA;
+} 
+body {
+    color: var(--grey-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+header {
+    background-color: var(--white-color);
+    font-weight: 500;
+    color: var(--black-color);
+    font-size: 16px;
+}
+footer {
+    background: var(--dark-color);
+    color: var(--white-color);
+    line-height: 1.5rem;
+}
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.9375rem;
+}
+.logo .blue {
+    color:  var(--blue-color);
+}
+.section-first {
+    background: var(--dark-color);
+    color: var(--white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 3.75rem;
+}    
+.section-second .font{
+    color: var(--black-color);
+    font-weight: 700;
+}
+.section-second .item {
+    line-height: 1.5rem;
+
+}
+.section-third .big-font {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 2.625rem;
+    color: var(--black-color);
+}
+.section-fourth {
+    background: var(--light-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1875rem;
+}
+.section-fourth .big-font {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 2.625rem;
+    color: var(--black-color);
+}
+.section-fourth .font {
+    font-weight: 500;
+    color: var(--black-color);
+}
+.section-fifth {
+    font-size: 16px;
+    line-height: 1.875rem;
+}
+.section-fifth .font{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.25rem;
+    color:  var(--black-color);
+}
+a {
+    text-decoration: none;
+    color: var(--black-color);
+}
+.link:hover {
+    color: var(--blue-color);
+}
+.link-2 {
+    color: var(--grey-color)
+}
+.link-2:hover {
+    color: var(--blue-color);
+}
+button {
+    background: var(--light-color);
+    color: var(--black-color);
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.625rem;
+}
+button:hover {
+    background: var(--blue-color);
+    color: var(--light-color);
+}
+.order {
+    background: var(--blue-color);
+    color: var(--light-color);
+}
