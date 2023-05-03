@@ -112,3 +112,21 @@ button:hover {
     background: var(--blue-color);
     color: var(--light-color);
 }
+.container {
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto;
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 0 20px;
+    
+}
+.box-left {
+    margin-left: auto;
+}
