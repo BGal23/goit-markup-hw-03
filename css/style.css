@@ -40,18 +40,18 @@ footer {
     color: var(--white-color);
     font-weight: 900;
     font-size: 44px;
-    line-height: 3.75rem;
+    line-height: 4.75rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 100px 250px 100px;
     margin: auto;
     text-align: center;
-    border-top: 1px solid var(--grey-color);
+    border-top: 1px solid var(--light-color);
 }    
 .section-first .item {
     max-width: 900px;
-    margin: auto;
+    margin: 100px auto 0;
 }
 .section-second .font{
     color: var(--black-color);
@@ -102,6 +102,12 @@ footer {
     font-size: 18px;
     line-height: 2.25rem;
     color:  var(--black-color);
+    margin: 20px 0 0 30px;
+
+}
+.section-fifth .font-2{
+    margin-left: 30px;
+    margin:0 0 20px 30px;
 }
 a {
     text-decoration: none;
@@ -137,7 +143,7 @@ button:hover {
     color: var(--light-color);
     width: 200px;
     min-height: 50px;
-    margin: 30px auto 50px;
+    margin: 30px auto 100px;
     
 }
 .container {
@@ -222,4 +228,21 @@ button:hover {
     margin: auto;
     display: flex;
     justify-content: space-between;
+}
+.container-8 {
+    max-width: 1200px;
+    margin: 50px auto 94px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+.container-8 .item {
+    padding: 0;
+    border: 1px solid var(--light-color);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    align-items: flex-start;
 }
