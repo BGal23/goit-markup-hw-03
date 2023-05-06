@@ -13,6 +13,7 @@ body {
     font-weight: 400;
     line-height: 16px;
 }
+
 header {
     background-color: var(--white-color);
     font-weight: 500;
@@ -147,60 +148,56 @@ button:hover {
     
 }
 .container {
-    max-width: 1200px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.header {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin: auto;
 }
-.box {
+.header .box {
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style-type: none;
     padding-right: 93px;
 }
-.box-right {
+.header  .box-right {
     margin-left: auto;
 }
 .item {
     padding: 0 23px 0;
 }
-.container-2 {
-    max-width: 1260px;
+.section-second .box {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin: 94px auto  94px;
+    margin: 94px -30px 94px;
     list-style-type: none;
     padding: 0;
 }
-.container-3 { 
-    max-width: 1200px;
-    margin: auto;
+.section-third .box { 
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     list-style-type: none;
     padding: 0;
 }
-.container-3 .item {
+.section-third .item {
     padding: 0;
 }
-.container-4 {
+.section-fourth .box-top {
     display: flex;
     flex-direction: column;
     margin-top: 94px;
     padding-bottom: 94px;
 }
-.container-5 {
-    width: 1200px;
-    margin: auto;
+.section-fourth .box-bottom {
     display: flex;
     justify-content: space-between;
     padding: 0;
 }
-.container-5 .item {
+.section-fourth .item {
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -209,28 +206,23 @@ button:hover {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
-.container-footer {
-    width: 1200px;
-    margin: auto;
+.footer {
     display: flex;
     justify-content: flex-start;
     padding-bottom: 40px;
 }
-.container-6 {
+.box-portfolio {
     display: flex;
     flex-direction: column;
     border-top: 1px solid var(--light-color);
     padding: 100px 0 0 ;
-
 }
-.container-7 {
+.box-bottons {
     width: 545px;
-    margin: auto;
     display: flex;
     justify-content: space-between;
 }
-.container-8 {
-    max-width: 1200px;
+.section-fifth .box {
     margin: 50px auto 94px;
     display: flex;
     justify-content: space-between;
@@ -238,7 +230,7 @@ button:hover {
     list-style-type: none;
     padding: 0;
 }
-.container-8 .item {
+.section-fifth .item {
     padding: 0;
     border: 1px solid var(--light-color);
     display: flex;
