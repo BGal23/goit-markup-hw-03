@@ -45,10 +45,11 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 100px 250px 100px;
+    height: 600px;
     margin: auto;
     text-align: center;
     border-top: 1px solid var(--light-color);
+
 }    
 .section-first .item {
     max-width: 900px;
